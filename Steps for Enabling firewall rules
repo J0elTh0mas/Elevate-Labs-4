@@ -1,0 +1,9 @@
+Initially the firewall rules make it so that windows automatically disables port 23.
+The windows defender firewall can be accessed by using the start menu.
+Then the user will have to go and enable both port 23 by setting custom rules for both outbound and inbound traffic.
+It should be understood that for telnet to run it requires a server that is hosting telnet. For most PCs this is not common.
+If you dont have telnet access proceed to Pragma Solutions and downbload their telent server
+Once this has been completed proceed to apply the firewall rules and then setup the server.
+Then using a virtual machine iw ill proceed to connect to the self hosted telnet server
+After this it can be seen that connection is made possible and that the activity is completed.
+Before wrapping it is necessary to revert all the steps back to original state (that is having port 23 disabled).
